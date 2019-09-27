@@ -1,6 +1,6 @@
 {
-  "name": "zentao",
-  "version": "1.0.0",
+  "name": "node-zentao",
+  "version": "1.0.1",
   "description": "Node.js client for ZentaoPMS",
   "main": "index.js",
   "scripts": {

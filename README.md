@@ -5,7 +5,7 @@
 ## Usage
 
 ```js
-const Zentao = require('./index');
+const Zentao = require('node-zentao');
 const zentao = Zentao({
     // server: 'http://localhost:8888/zentaopms/www/',
     // account: 'admin',
@@ -15,6 +15,15 @@ const zentao = Zentao({
 let data = await zentao.login(); // 登录，初始化 session
 data = await zentao.getProjects(); // 获取项目列表
 data = await zentao.getUsers(); // 获取用户列表
+```
+
+```js
+const Koa = require('koa');
+const Zentao = require('node-zentao/koa-api');
+
+const app = new Koa();
+app.use(Zentao());
+app.listen(3000);
 ```
 
 ## Ref
