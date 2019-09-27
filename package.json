@@ -1,0 +1,27 @@
+{
+  "name": "zentao",
+  "version": "1.0.0",
+  "description": "Node.js client for ZentaoPMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuliupo/node-zentao.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Koa.js",
+    "ZentaoPMS"
+  ],
+  "author": "liupo.wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuliupo/node-zentao/issues"
+  },
+  "homepage": "https://github.com/wuliupo/node-zentao#readme",
+  "peerDependencies": {
+    "axios": "^0.18.1"
+  }
+}
